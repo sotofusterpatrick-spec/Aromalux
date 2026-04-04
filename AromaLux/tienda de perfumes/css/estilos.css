@@ -36,6 +36,12 @@ nav a:hover {
     font-size: 32px;
 }
 
+.imagenbanner img {
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
 /* PRODUCTOS */
 .productos {
     display: flex;
