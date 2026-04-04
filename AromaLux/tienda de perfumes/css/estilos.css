@@ -1,0 +1,149 @@
+/* RESET BÁSICO */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* HEADER */
+header {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+/* SECCIÓN INICIO (TODAS LAS PÁGINAS) */
+.inicio {
+    background: linear-gradient(to right, black, #333);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.inicio h2 {
+    font-size: 32px;
+}
+
+/* PRODUCTOS */
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background: white;
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.producto:hover {
+    transform: translateY(-8px);
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.producto h3 {
+    margin: 10px 0;
+}
+
+.producto p {
+    font-weight: bold;
+    color: #333;
+}
+
+/* CONTACTO */
+.contacto {
+    text-align: center;
+    padding: 30px;
+    font-size: 18px;
+}
+
+/* FORMULARIO */
+.formulario {
+    max-width: 500px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.formulario button {
+    background: black;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.formulario button:hover {
+    background: gold;
+    color: black;
+}
+
+/* SOBRE NOSOTROS */
+.sobre-nosotros {
+    padding: 50px 20px;
+    text-align: center;
+    background: white;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.info-box {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.info-box:hover {
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
