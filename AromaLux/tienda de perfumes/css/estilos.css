@@ -92,14 +92,14 @@ nav a:hover {
 /* CONTACTO */
 .contacto {
     text-align: center;
-    padding: 30px;
+    padding: 10px;
     font-size: 18px;
 }
 
 /* FORMULARIO */
 .formulario {
     max-width: 500px;
-    margin: 40px auto;
+    margin: 20px auto;
     text-align: center;
 }
 
@@ -130,6 +130,14 @@ nav a:hover {
 .formulario button:hover {
     background: gold;
     color: black;
+}
+
+/* Contac */
+
+.contactanosimagen img{
+    width: 320px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
 /* SOBRE NOSOTROS */
