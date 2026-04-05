@@ -42,6 +42,28 @@ nav a:hover {
     border-radius: 20px;
 }
 
+.slides {
+    display: flex;
+    width: 150%; /* imágenes*/
+    animation: slide 6s infinite;
+}
+
+.slides img {
+    width: 100%;
+    height: 600px; /* para agrandar imagenes */
+    object-fit: cover;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    45% { transform: translateX(0); }
+
+    50% { transform: translateX(-50%); }
+    95% { transform: translateX(-50%); }
+
+    100% { transform: translateX(0); }
+}
+
 /* PRODUCTOS */
 .productos {
     background: white;
@@ -60,6 +82,15 @@ nav a:hover {
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     transition: 0.3s;
+}
+
+.producto h3 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 0.9;
+
+    height: 40px;        
+    overflow: hidden;   
 }
 
 
