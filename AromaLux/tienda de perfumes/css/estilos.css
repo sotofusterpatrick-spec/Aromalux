@@ -21,7 +21,7 @@ nav a {
 }
 
 nav a:hover {
-    color: gold;
+    color: white;
 }
 
 /* SECCIÓN INICIO (TODAS LAS PÁGINAS) */
@@ -44,6 +44,7 @@ nav a:hover {
 
 /* PRODUCTOS */
 .productos {
+    background: white;
     display: flex;
     justify-content: center;
     gap: 25px;
@@ -52,7 +53,7 @@ nav a:hover {
 }
 
 .producto {
-    background: white;
+    background: rgb(194, 192, 177);
     padding: 15px;
     width: 220px;
     text-align: center;
@@ -128,7 +129,7 @@ nav a:hover {
 }
 
 .formulario button:hover {
-    background: gold;
+    background: white;
     color: black;
 }
 
@@ -154,7 +155,7 @@ nav a:hover {
 }
 
 .info-box {
-    background: #f4f4f4;
+    background: rgb(194, 192, 177);
     padding: 20px;
     border-radius: 10px;
     transition: 0.3s;
