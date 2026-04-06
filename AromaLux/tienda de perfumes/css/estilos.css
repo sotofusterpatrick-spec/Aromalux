@@ -75,7 +75,7 @@ nav a:hover {
 }
 
 .producto {
-    background: rgb(194, 192, 177);
+    background: white;
     padding: 15px;
     width: 220px;
     text-align: center;
@@ -146,7 +146,7 @@ nav a:hover {
 .formulario textarea {
     padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: px;
 }
 
 .formulario button {
