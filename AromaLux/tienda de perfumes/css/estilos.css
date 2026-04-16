@@ -121,6 +121,20 @@ nav a:hover {
     color: #333;
 }
 
+.producto button {
+    background: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.producto:hover button {
+    background: rgb(110, 110, 110);
+    color: white;
+}
+
 /* CONTACTO */
 .contacto {
     text-align: center;
