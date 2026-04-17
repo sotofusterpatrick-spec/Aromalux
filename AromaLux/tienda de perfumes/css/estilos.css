@@ -44,7 +44,7 @@ nav a:hover {
 
 .slides {
     display: flex;
-    width: 200%; /* para 2 imágenes */
+    width: 300%; /* para 3 imágenes */
     animation: slide 12s infinite;
 }
 
@@ -56,10 +56,13 @@ nav a:hover {
 
 @keyframes slide {
     0% { transform: translateX(0); }
-    45% { transform: translateX(0); }
+    30% { transform: translateX(0); }
 
-    50% { transform: translateX(-50%); }
-    95% { transform: translateX(-50%); }
+    33% { transform: translateX(-33.33%); }
+    63% { transform: translateX(-33.33%); }
+
+    66% { transform: translateX(-66.66%); }
+    96% { transform: translateX(-66.66%); }
 
     100% { transform: translateX(0); }
 }
