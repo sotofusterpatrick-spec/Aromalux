@@ -216,31 +216,8 @@ nav a:hover {
     font-size: 14px;
     font-weight: 600;
     line-height: 0.9;
-
     height: 40px;        
-    overflow: hidden;   
-}
-
-
-.producto img {
-    width: 100%;
-    border-radius: 10px;
-     height: 200px;
-    object-fit: contain;
-}
-
-.producto:hover {
-    transform: translateY(-8px);
-}
-
-.producto img {
-    width: 100%;
-    border-radius: 10px;
-     height: 200px;
-    object-fit: contain;
-}
-
-.producto h3 {
+    overflow: hidden;
     margin: 10px 0;
 }
 
@@ -288,7 +265,7 @@ nav a:hover {
 .formulario textarea {
     padding: 12px;
     border: 1px solid #ccc;
-    border-radius: px;
+    border-radius: 8px;
 }
 
 .formulario button {
@@ -428,7 +405,7 @@ nav a:hover {
         padding: 30px 20px;
     }
 }
-}
+
 
 /* FOOTER */
 footer {
