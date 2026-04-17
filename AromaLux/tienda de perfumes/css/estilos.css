@@ -31,6 +31,23 @@ nav a:hover {
     padding: 80px 20px;
 }
 
+.page-intro {
+    background: linear-gradient(to right, black, #333);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.page-intro h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.page-intro p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
 .hero-content {
     display: flex;
     align-items: center;
