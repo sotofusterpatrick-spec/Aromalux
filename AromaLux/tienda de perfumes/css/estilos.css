@@ -44,8 +44,8 @@ nav a:hover {
 
 .slides {
     display: flex;
-    width: 150%; /* imágenes*/
-    animation: slide 6s infinite;
+    width: 200%; /* para 2 imágenes */
+    animation: slide 12s infinite;
 }
 
 .slides img {
