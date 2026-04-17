@@ -506,23 +506,6 @@ footer {
     background: #555;
 }
 
-.reclamaciones-btn {
-    background: #ff4444 !important;
-    color: white !important;
-    padding: 10px 15px !important;
-    border-radius: 5px;
-    font-weight: bold;
-    display: inline-block;
-    margin-top: 10px;
-    border: none;
-    cursor: pointer;
-}
-
-.reclamaciones-btn:hover {
-    background: #cc0000 !important;
-    color: white !important;
-    text-decoration: none;
-}
 
 footer p {
     font-size: 12px;
