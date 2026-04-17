@@ -376,7 +376,6 @@ nav a:hover {
     background: white;
     padding: 40px 30px;
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
     text-align: center;
     position: relative;
@@ -401,7 +400,6 @@ nav a:hover {
 
 .info-box:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 
 .info-box h3 {
