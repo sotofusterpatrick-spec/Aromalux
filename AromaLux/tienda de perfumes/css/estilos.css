@@ -313,11 +313,11 @@ footer {
     flex-wrap: wrap;
 }
 
-.footer-nav, .footer-social {
+.footer-nav, .footer-social, .footer-legal {
     text-align: center;
 }
 
-.footer-nav h3, .footer-social h3 {
+.footer-nav h3, .footer-social h3, .footer-legal h3 {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 18px;
@@ -325,20 +325,20 @@ footer {
     letter-spacing: 1px;
 }
 
-.footer-nav nav {
+.footer-nav nav, .footer-legal nav {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.footer-nav a, .social-links a {
+.footer-nav a, .social-links a, .footer-legal a {
     color: #ddd;
     text-decoration: none;
     font-size: 14px;
     transition: 0.3s;
 }
 
-.footer-nav a:hover, .social-links a:hover {
+.footer-nav a:hover, .social-links a:hover, .footer-legal a:hover {
     color: #ffd700;
     text-decoration: underline;
 }
@@ -361,6 +361,24 @@ footer {
 
 .social-links a:hover {
     background: #555;
+}
+
+.reclamaciones-btn {
+    background: #ff4444 !important;
+    color: white !important;
+    padding: 10px 15px !important;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.reclamaciones-btn:hover {
+    background: #cc0000 !important;
+    color: white !important;
+    text-decoration: none;
 }
 
 footer p {
