@@ -28,12 +28,21 @@ nav a:hover {
 .inicio {
     background: linear-gradient(to right, black, #333);
     color: white;
-    text-align: center;
     padding: 80px 20px;
 }
 
-.inicio h2 {
-    font-size: 32px;
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.imagenbanner {
+    flex: 1;
+    max-width: 50%;
 }
 
 .imagenbanner img {
@@ -44,8 +53,8 @@ nav a:hover {
 
 .slides {
     display: flex;
-    width: 150%; /* imágenes*/
-    animation: slide 6s infinite;
+    width: 300%; /* para 3 imágenes */
+    animation: slide 12s infinite;
 }
 
 .slides img {
@@ -56,12 +65,89 @@ nav a:hover {
 
 @keyframes slide {
     0% { transform: translateX(0); }
-    45% { transform: translateX(0); }
+    30% { transform: translateX(0); }
 
-    50% { transform: translateX(-50%); }
-    95% { transform: translateX(-50%); }
+    33% { transform: translateX(-33.33%); }
+    63% { transform: translateX(-33.33%); }
+
+    66% { transform: translateX(-66.66%); }
+    96% { transform: translateX(-66.66%); }
 
     100% { transform: translateX(0); }
+}
+
+.hero-text {
+    flex: 1;
+    text-align: left;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.btn-primary {
+    background: #ffd700;
+    color: black;
+}
+
+.btn-primary:hover {
+    background: #ffed4e;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-secondary:hover {
+    background: white;
+    color: black;
+    transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .imagenbanner {
+        max-width: 100%;
+    }
+    .hero-text {
+        text-align: center;
+    }
+    .hero-text h1 {
+        font-size: 36px;
+    }
+    .hero-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
 
 /* PRODUCTOS */
@@ -215,10 +301,85 @@ footer {
     background: black;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 30px 20px;
+    margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-nav, .footer-social {
+    text-align: center;
+}
+
+.footer-nav h3, .footer-social h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-nav nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-nav a, .social-links a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.footer-nav a:hover, .social-links a:hover {
+    color: #ffd700;
+    text-decoration: underline;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    display: inline-block;
+    padding: 8px 15px;
+    background: #333;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    background: #555;
+}
+
+footer p {
+    font-size: 12px;
+    color: #999;
+    margin: 0;
 }
 .carrito {
     position: fixed;
     top: 20px;
-    right: 20px;
+    right: 20px;}
+
+    .categoria {
+    width: 100%;
+    text-align: left;
+    font-size: 24px;
+    margin: 40px 0 15px;
+    color: #111;
+    border-left: 6px solid #000;
+    padding-left: 12px;
+    font-weight: bold;
 }
