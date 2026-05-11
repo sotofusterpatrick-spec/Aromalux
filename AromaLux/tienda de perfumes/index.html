@@ -11,11 +11,17 @@
 
 <header>
     <h1>AromaLux</h1>
-    <div class="carrito">
-    🛒 0
-
-   
-</div>
+    <div class="cart-container">
+        <button type="button" class="cart-button" aria-label="Ver carrito">
+            <span class="cart-icon"></span>
+            <span class="cart-count">0</span>
+        </button>
+        <div class="cart-dropdown hidden">
+            <p class="cart-title">Tu carrito</p>
+            <div class="cart-items"></div>
+            <button type="button" class="clear-cart">Vaciar carrito</button>
+        </div>
+    </div>
     <nav>
         <a href="index.html">Inicio</a>
         <a href="mujer.html">Mujer</a>
@@ -28,10 +34,9 @@
 
 <!-- PRESENTACIÓN PRINCIPAL -->
 <section class="inicio">
-    
-    <div>
-    <h4 id="saludo"></h4>
-
+    <div class="inicio-intro">
+        <h4 id="saludo"></h4>
+        <p class="intro-copy">Explora fragancias seleccionadas para cada estilo y ocasión. Encuentra tu aroma único con AromaLux.</p>
     </div>
     <div class="hero-content">
         <div class="imagenbanner">
@@ -39,6 +44,10 @@
                 <img src="img/portada1.png" alt="Perfumes exclusivos para mujer">
                 <img src="img/portada2.png" alt="Fragancias de alta calidad">
                 <img src="img/portada3.png" alt="AromaLux perfumes premium">
+            </div>
+            <div class="carousel-caption">
+                <p>Perfumes exclusivos</p>
+                <h2>Un aroma que cuenta tu historia</h2>
             </div>
         </div>
     </div>
@@ -72,6 +81,38 @@
     </div>
 </section>
 
+<section class="medios-pago">
+    <div class="medios-pago-inner">
+        <div class="medios-pago-header">
+            <span class="payment-label">Métodos de pago</span>
+            <h2>Facilitamos tu compra con opciones seguras</h2>
+            <p>Selecciona tu medio de pago preferido: Yape, Plin o Transferencia bancaria.</p>
+        </div>
+        <div class="payment-grid">
+            <article class="payment-card">
+                <div class="payment-icon">
+                    <img src="img/yape.png" alt="Logo Yape">
+                </div>
+                <h3>Yape</h3>
+                <p>Pago instantáneo desde la app con tu número o código QR.</p>
+            </article>
+            <article class="payment-card">
+                <div class="payment-icon">
+                    <img src="img/plin.png" alt="Logo Plin">
+                </div>
+                <h3>Plin</h3>
+                <p>Transferencia rápida y sin comisiones desde tu banca móvil.</p>
+            </article>
+            <article class="payment-card">
+                <div class="payment-icon">
+                    <img src="img/bbva.jpg" alt="Logo BBVA">
+                </div>
+                <h3>BBVA</h3>
+                <p>Transferencia bancaria segura desde tu app o banca web BBVA.</p>
+            </article>
+        </div>
+    </div>
+</section>
 
 <footer>
     <div class="footer-content">
